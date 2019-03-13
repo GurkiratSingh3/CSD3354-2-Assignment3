@@ -30,7 +30,6 @@ namespace UnitTestProject1
             account.Debit(debitAmount);
         }
         [TestMethod]
-        [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
         {
             double beginningBalance = 11.99;

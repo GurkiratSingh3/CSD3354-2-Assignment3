@@ -78,6 +78,7 @@ namespace BankAccountNS
             ba.Credit(5.77);
             ba.Credit(11.22);
             Console.WriteLine("Current balance is ${0}", ba.Balance);
+            Console.ReadLine();
         }
     }
 }

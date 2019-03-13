@@ -16,6 +16,7 @@ namespace BankAccountNS
 
         private bool m_frozen = false;
 
+
         private BankAccount()
         {
 

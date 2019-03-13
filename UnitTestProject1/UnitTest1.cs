@@ -33,10 +33,9 @@ namespace UnitTestProject1
         public void Debit_WhenAmountIsMoreThanBalance_ShouldThrowArgumentOutOfRange()
         {
             double beginningBalance = 11.99;
-            double debitAmount = 20.00;
+            double debitAmount = 10.00;
             BankAccount account = new BankAccount("Mr,. Bryan Walton", beginningBalance);
             account.Debit(debitAmount);
-
             try
             {
                 account.Debit(debitAmount);

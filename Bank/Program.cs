@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace BankAccountNS
 {  
+    //Name : Gurkirat Singh - C0731779
+    //Name : Arashpreet Singh - C0727466
     public class BankAccount
     {
         private string m_customerName;

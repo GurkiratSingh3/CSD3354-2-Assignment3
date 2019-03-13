@@ -35,9 +35,9 @@ namespace BankAccountNS
         }
         public void Debit(double amount)
         {
-            if(m_frozen)
+            if (m_frozen)
             {
-                throw new Exception("Account frozen";)
+                throw new Exception("Account frozen");
             }
 
             if(amount > m_balance)

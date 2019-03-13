@@ -37,7 +37,7 @@ namespace UnitTestProject1
             double beginningBalance = 11.99;
             double debitAmount = 100.00;
             BankAccount account = new BankAccount("Mr,. Bryan Walton", beginningBalance);
-
+        
             account.Debit(debitAmount);
         }
     }
